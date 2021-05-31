@@ -237,7 +237,7 @@ class RobboGui extends Component {
 
   triggerExtensionPack(){
 
-    console.log("triggerExtensionPack");
+    console.log("triggerExtensionPack v011");
     this.props.onTriggerExtensionPack();
 
 

@@ -308,7 +308,7 @@ class AboutWindowComponent extends Component {
 
                      <div id="raw-1-about-window-content-column-1"  className={styles.about_window_content_column}>
 
-                     Robbo Scratch v.3.51.0-simulator-preview 
+                     Robbo Scratch v.3.53.0-simulator-view 
                      </div>
 
                      <div id="raw-1-about-window-content-column-2" className={styles.about_window_content_column}>

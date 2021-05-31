@@ -53,7 +53,7 @@ class RobotPreviewComponent extends Component {
      // robot_connection_status = document.getElementById(`robot-${this.props.robotIndex}-connection-status`);
        robot_connection_status = document.getElementById(`robot-preview-${this.props.robotIndex}`);
 
-    
+
 
       if (robot_state == 6){
 
@@ -102,22 +102,22 @@ class RobotPreviewComponent extends Component {
 
     return (
 
-          <div id={`robot-preview-${this.props.robotIndex}`} 
-          
+          <div id={`robot-preview-${this.props.robotIndex}`}
+
           className={classNames(
 
                               {[styles.robotPreview]: true},
                               {[styles.robot_status_connected]: this.isrobotConnected},
                               {[styles.robot_status_disconnected]: !this.isrobotConnected}
-                                )} 
-          
-          
+                                )}
+
+
             onClick={this.props.onTriggerRobotPallete}>
 
 
                 <div id={`robot-${this.props.robotIndex}-preview-pic`}  className={styles.robotPreviewPic} >
 
-                    
+
 
                 </div>
 
